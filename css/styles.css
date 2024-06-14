@@ -30,7 +30,9 @@ p {
     flex-direction: column;
     margin: auto;
     width: 1200px;
+    max-width: 100%;
     text-align: center;
+    padding: 0 24px;
 }
 
 .mindmap {
@@ -61,6 +63,7 @@ p {
     overflow: hidden;
     position: relative;
     cursor: grab;
+    max-width: 100%;
 }
 
 
