@@ -42,6 +42,7 @@ p {
     flex-direction: column;
     align-items: center;
     margin: auto;
+    margin-top: 12px;
     font-style: italic;
     color: #565656;
 }
@@ -54,13 +55,26 @@ p {
 }
 
 .download {
+    display: block;
+    flex-direction: column;
+    align-content: center;
+    margin: auto;
     text-align: center;
     font-size: 16px;
     font-family: "Roboto", sans-serif;
-    font-weight: 400;
+    text-decoration: none;
+    font-weight: 500;
     line-height: 24px;
-    letter-spacing: 0.02em;
-    color: #190940;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    background-color: #FACA3A;
+    width: 224px;
+    height: 60px;
+    border-radius: 48px;
+}
+
+.download:hover {
+    background-color: #f9af46;
 }
 
 .photo {
