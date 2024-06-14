@@ -42,7 +42,6 @@ p {
     flex-direction: column;
     align-items: center;
     margin: auto;
-    margin-top: 24px;
     font-style: italic;
     color: #565656;
 }
